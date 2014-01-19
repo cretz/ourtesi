@@ -1,0 +1,19 @@
+{
+    "name": "ourtesi",
+    "version": "v0.1.0",
+    "description": "Ourtesi",
+    "keywords": ["ourtesi"],
+    "homepage": "http://github.com/cretz/ourtesi",
+    "author": "Chad Retz <chad.retz@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/cretz/ourtesi.git"
+    },
+    "engines": {
+        "node": ">=0.10.24"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://github.com/cretz/ourtesi/raw/master/LICENSE"
+    }]
+}

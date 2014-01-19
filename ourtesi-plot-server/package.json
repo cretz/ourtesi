@@ -1,0 +1,23 @@
+{
+    "name": "ourtesi-plot-server",
+    "version": "v0.1.0",
+    "description": "Plot server for Ourtesi",
+    "keywords": ["ourtesi", "plot"],
+    "homepage": "http://github.com/cretz/ourtesi",
+    "author": "Chad Retz <chad.retz@gmail.com>",
+    "main": "./lib/plot",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/cretz/ourtesi.git"
+    },
+    "devDependencies": {
+        "mocha": ">=1.17.0"
+    },
+    "engines": {
+        "node": ">=0.10.24"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://github.com/cretz/ourtesi/raw/master/LICENSE"
+    }]
+}

@@ -1,0 +1,5 @@
+/.idea
+/ourtesi-common/definitions/third-party
+/ourtesi-*/lib
+/ourtesi-*/node_modules
+/ourtesi-*/tscommand.tmp.txt

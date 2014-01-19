@@ -1,0 +1,29 @@
+{
+    "name": "ourtesi-governor",
+    "version": "v0.1.0",
+    "description": "Governor server for Ourtesi",
+    "keywords": ["ourtesi", "governor"],
+    "homepage": "http://github.com/cretz/ourtesi",
+    "author": "Chad Retz <chad.retz@gmail.com>",
+    "main": "./lib/governor",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/cretz/ourtesi.git"
+    },
+    "dependencies": {
+        "nedb": "~0.9.4",
+        "ws": "~0.4.31"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-ts": "~1.6.4",
+        "mocha": "~1.17.0"
+    },
+    "engines": {
+        "node": "~0.10.24"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://github.com/cretz/ourtesi/raw/master/LICENSE"
+    }]
+}

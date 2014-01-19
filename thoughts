@@ -1,0 +1,22 @@
+WebRTC social net
+
+* Can host your own "home page" via node-webkit or browser
+* Separate server/node.js piece just in case it needs to be hosted headlessly
+* Not only for "permanent" spaces, but for real quick ones too (e.g. life of tab)
+
+Projects:
+
+* ourtesi-visitor - Webapp ui to browse, connects to different plots
+* ourtesi-plot-manage - Webapp ui to manage plots
+* ourtesi-plot - Common code for plot w/ webrtc logic and persistence abstraction
+* ourtesi-plot-web - ourtesi-plot + ourtesi-plot-manage + indexeddb/dropbox persistence impl + webrtc browser impl
+* ourtesi-plot-server - ourtesi-plot + served ourtesi-plot-manage + local persistence impls + node webrtc impl
+* ourtesi-plot-resident - ourtesi-visitor + ourtesi-plot-server + node-webkit w/ system tray piece
+* ourtesi-governor - Node server for handling rtc signalling and possible user registries
+
+
+Terms:
+* "plot" - a web-rtc host for your "home page" of sorts
+* "governor" - a server that only does signalling and user mapping
+* "visitor" - a client that can view plots, logged in or now
+* "resident" - app for visitor + plot
